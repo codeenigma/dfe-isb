@@ -1,0 +1,59 @@
+form.node-standard-form .field-widget-field-collection-table th {
+    text-transform: none;
+}
+
+form.node-standard-form .field-widget-field-collection-table {
+    position: relative;
+    padding-top: 1px;
+}
+
+
+form.node-standard-form .field-widget-field-collection-table .form-item {
+    padding: 5px 0;
+}
+
+form.node-standard-form .field-widget-field-collection-table th:first-child label {
+    position: absolute;
+    top: 5px;
+    left: 0;
+    margin: 0;
+}
+
+form.node-standard-form fieldset span {
+    font-family: "Helvetica Neue",helvetica,"Segoe UI",segoe,"Ubuntu","Droid Sans","Arial",sans-serif;
+    font-size: 1em;
+    line-height: 1.5em;
+    font-weight: 700;
+}
+
+.field-name-field-entities table {
+    font-size: 1em;
+}
+
+#edit-field-standard-date-und-0-value {
+    padding: 0;
+}
+
+#edit-field-standard-date-und-0-value label {
+    display: none;
+}
+
+
+.field-name-field-controlled-list-values .field-widget-text-textfield,
+.field-name-field-controlled-list-labels .field-widget-text-textfield,
+.field-name-field-data-definitions-values .field-widget-text-textfield,
+.field-name-field-data-definitions-labels .field-widget-text-textfield {
+    margin-left: 0px;
+}
+
+
+.field-name-field-controlled-list-values .field-widget-text-textfield input,
+.field-name-field-controlled-list-labels .field-widget-text-textfield input,
+.field-name-field-data-definitions-values .field-widget-text-textfield input,
+.field-name-field-data-definitions-labels .field-widget-text-textfield input {
+    width: 140px;
+}
+
+.form-item th label {
+    margin-left: 10px;
+}

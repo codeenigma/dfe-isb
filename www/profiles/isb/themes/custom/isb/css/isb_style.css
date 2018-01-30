@@ -1,0 +1,367 @@
+/* ---------- ISB CSS overrides and additions ----------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+
+body {
+    font-size: 0.8em;
+}
+
+body, #site-slogan, .ui-widget, .comment-form label {
+    font-family: "Open Sans", "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", Verdana, Geneva, sans-serif;
+}
+
+#content .section, .sidebar .section {
+    padding: 0 20px;
+}
+
+#site-name a {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#site-name a:focus,
+#site-name a:hover {
+    text-decoration: none;
+    text-shadow: 0 0 7px #7e91a3;
+}
+
+#logo {
+    max-width: 250px;
+    padding: 15px 15px 20px 20px
+}
+
+#name-and-slogan {
+    padding: 15px 0 0;
+    float: right;
+    clear: right;
+    margin-right: 20px;
+}
+
+#main {
+    margin-top: 10px;
+}
+
+#page-title {
+    margin-top: 0;
+}
+
+#main-menu-links li a {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 0.5em 1.5em 0.3em 1.5em;
+}
+
+#secondary-menu-links a {
+    padding: 0.5em 0.5em 0 0.5em;
+}
+
+.region-header {
+    margin: 0.5em 0.5em 0 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0.5em 0 0.3em;
+}
+
+.breadcrumb {
+    padding: 10px 20px;
+}
+
+.panel-responsive .rld-col {
+    margin: 0 1% 0 0;
+    padding: 0 0.5% 0 0;
+}
+
+.views-row {
+    padding-bottom: 15px;
+}
+
+.view-standards .views-row-first {
+    margin-top: 20px;
+}
+
+.views-label {
+    float: left;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.views-field-field-standard-type,
+.views-field-field-standard-version,
+.views-field-field-standard-status,
+.views-field-field-standard-identifier {
+    float: left;
+    margin-bottom: 5px;
+}
+
+.views-field-field-standard-type .field-content,
+.views-field-field-standard-version .field-content,
+.views-field-field-standard-status .field-content,
+.views-field-field-standard-identifier .field-content {
+    padding-right: 20px;
+
+}
+
+/* standards library search facets */
+
+.views-field-search-api-excerpt {
+    clear: both;
+    border-top: 1px dotted #aaa;
+    padding-top: 5px;
+}
+
+#edit-search-api-views-fulltext {
+    border-radius: 5px 0 0 5px;
+    padding-right: 30%;
+    width: 70%;
+    height: 14px;
+}
+.views-exposed-form input {
+    border-radius: 5px;
+}
+
+.views-exposed-widgets {
+    position: relative;
+}
+
+.views-exposed-widgets .views-submit-button {
+    position: absolute;
+    top: 8px;
+    right: 0px;
+    padding: 0;
+}
+
+.views-exposed-form .views-exposed-widget .form-submit {
+    margin: 0;
+    height: 24px;
+    padding: 0 5px;
+}
+
+.views-exposed-widgets label {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    text-shadow: 0 1px 0 #fff;
+    font-size: 1.071em;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+@media (max-width: 850px) and (min-width: 590px) {
+    .views-exposed-widgets .views-submit-button {
+        top: 8px;
+        left: 190px;
+    }
+    #edit-search-api-views-fulltext {
+        width: 135px;
+    }
+
+    .views-exposed-form .views-widget-sort-by,
+    .views-exposed-form .views-widget-sort-order {
+        float: right;
+    }
+}
+
+@media (max-width: 710px) and (min-width: 460px) {
+    .views-exposed-widgets .views-submit-button {
+        top: 7px;
+    }
+}
+
+@media (max-width: 590px) {
+    #edit-search-api-views-fulltext-wrapper {
+        width: 90%;
+    }
+
+    .views-exposed-form .views-widget-sort-by {
+        clear: both;
+    }
+}
+
+#block-current-search-standard h1 {
+    margin-top: 0;
+    font-size: 2em;
+    line-height: 1em;
+}
+
+body.page-standards .tabs {
+    display: none;
+}
+
+
+.field-label-inline .field-label {
+    clear: both;
+    float: left;
+    font-weight: bold;
+    width: 145px;
+}
+
+
+.field-label-inline .field-items {
+    float: none;
+    margin-left: 150px;
+}
+
+.view-news .field-content {
+    margin: 0;
+}
+
+#content .views-field-title .field-content {
+    margin: 8px 0;
+}
+
+#content .views-field-title h2.field-content {
+    margin-bottom: 0;
+}
+
+#content .views-field-title .field-content a {
+    padding-top: 10px !important;
+}
+
+.content .field {
+    clear: both;
+    border-top: 1px solid #aaa;
+    padding: 8px 0;
+    margin-bottom: 0;
+}
+
+.content .field-label-inline .field-items .field-item {
+    padding-left: 10px;
+    border-left: 1px dotted #aaa;
+}
+
+.node-teaser {
+    border: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.view-news .attachment .views-row,
+.view-faq .views-row,
+.view-faq .views-row {
+    border: none;
+}
+
+.field-name-field-controlled-list-values .field {
+    border: none;
+    padding: 3px;
+    margin: 0;
+}
+
+.field-collection-container,
+.field-type-field-collection .field {
+    border: none;
+    margin: 0;
+}
+
+table tr th {
+    background: #eee;
+    color: #3B3B3B;
+    border: 1px solid #3B3B3B;
+}
+
+table tr td {
+    background: #fff;
+    color: #3B3B3B;
+    border: 1px solid #3B3B3B;
+}
+
+.field-collection-view {
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+}
+
+.content .field-name-field-notes,
+.field-name-field-data-definitions-notes {
+    font-size: 0.8em;
+}
+
+.content .field-name-field-controlled-list-desc p,
+.content .field-name-field-controlled-list-desc,
+.content .field-name-field-controlled-list-notes,
+.content .field-name-field-entity-description p,
+.content .field-name-field-entity-description,
+.content .field-name-field-notes,
+.content .field-name-field-data-definitions-notes {
+    padding: 0;
+    margin: 0;
+}
+
+
+.content .field-name-field-controlled-list-name,
+.content .field-name-field-entity-type,
+.content .field-name-field-entity-name {
+    font-size: 1em;
+    font-weight: bold;
+    float: left;
+    clear: none;
+}
+
+
+.content .field-name-field-entity-type .field-item:after {
+    content: ": "
+}
+.content .field-name-field-entity-name {
+    margin-left: 10px;
+}
+
+/* captcha */
+
+fieldset.captcha {
+    border: none;
+}
+
+fieldset.captcha legend {
+    display: none;
+}
+
+fieldset.captcha,
+fieldset.captcha .fieldset-wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+#recaptcha_response_field {
+    padding: 1px;
+}
+
+#recaptcha_privacy a {
+    color: #aaa;
+}
+
+.profile .field-name-field-avatar {
+    float: left;
+    border: none;
+}
+
+.profile .field-name-field-avatar .field-item {
+    background: #ddd;
+}
+
+.profile .field-name-field-avatar .field-item img {
+    margin: 0;
+}
+
+.profile .user-info-right {
+    padding-left: 120px;
+}
+
+.profile .member-for {
+    margin: 5px 0;
+}
+
+.profile h3 {
+    border: none;
+}
+
+.copyright {
+    text-align: right;
+}
+
+.copyright a {
+    width: 125px;
+    display: inline-block;
+    background: url(../images/crown_copyright.png) no-repeat;
+    text-align: center;
+    text-decoration: none;
+    padding: 115px 0 0 0;
+}

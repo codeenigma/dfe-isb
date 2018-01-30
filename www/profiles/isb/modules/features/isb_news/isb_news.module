@@ -1,0 +1,23 @@
+<?php
+/**
+ * @file
+ * Code for the Featured News feature.
+ */
+
+include_once('isb_news.features.inc');
+
+/**
+ * Implements hook_views_post_execute().
+ */
+function isb_news_views_post_execute(&$view) {
+  if ($view->name == 'news' && $view->current_display == 'block_1') {
+    $breadcrumb[] = l('Home', '<front>');
+    if (!empty($view->exposed_input)) {
+      $breadcrumb[] = l('News', 'news');
+    }
+    else {
+      $breadcrumb[] = 'News';
+    }
+    drupal_set_breadcrumb($breadcrumb);
+  }
+}
